@@ -1,0 +1,115 @@
+body {
+    font-family:'Mulish:ital';
+    background: #E5E5E5;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    min-width: 205px;
+    max-width: 205px;
+    max-height: 700px;
+    padding: 110px 0 130px 0;
+    background:white;
+    color:black;
+    transition: all 0.3s;
+    box-shadow: 5px 0px 10px rgba(128, 128, 128, 0.15);
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a{
+    display: block;
+}
+
+.item_color{
+    color:blue;
+    margin-top: 20px;
+}
+ 
+.unread{
+    color: blue;
+}
+.read{
+    color:green;
+}
+
+.logout{
+    position: relative;
+    right: 30px;
+    
+}
+
+.ew{
+    display: flex;
+}
+.logout_color{
+    color:red;
+}
+.fa-check-circle{
+    color:white;
+    background: blue;
+    font-size: 25px;
+    border:1px solid blue;
+}
+
+.grey_circle{
+    width: 50px;
+    height:50px;
+    background: rgb(172, 167, 167);
+}
+
+.tours_colour{
+    color: blue;
+}
+#content{
+    margin-left: 5%;
+}
+
+.checkbox-round {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    background-color: gray;
+}
+
+.first_row{
+    background: #FFFFFF;
+    border: 1px solid #EDF6FB;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.15);
+    border-radius: 5px;
+}
+
+.nth_row{
+    background: #FFFFFF;
+    border: 1px solid #EDF6FB;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
