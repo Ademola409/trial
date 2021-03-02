@@ -113,3 +113,10 @@ a{
     border-radius: 5px;
 }
 
+.unread_color{
+    color: red;
+}
+
+.read_color{
+    color: green;
+}
